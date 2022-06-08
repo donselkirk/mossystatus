@@ -22,6 +22,7 @@ status-website:
   #name: Upptime
   introTitle: "Welcome to MossyMine"
   introMessage: The MossyMine Minecraft server offers a friendly PG-13 server with a variety of gameplay experiences with some customization only found here.
+  css: ".logo div { display: none}"
   navbar:
     - title: Website
       href: https://www.mossymine.com
