@@ -5,7 +5,7 @@ repo: mossystatus # The name of this repository
 sites:
   - name: Website
     url: https://www.mossymine.com
-  - name: Proxy
+  - name: Server
     check: "tcp-ping"
     url: mc.mossymine.com
     port: 25565
