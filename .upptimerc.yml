@@ -7,6 +7,10 @@ sites:
     url: https://www.mossymine.com
   - name: Panel
     url: https://panel.mossymine.com
+  - name: Proxy
+    check: "tcp-ping"
+    url: mc.mossymine.com
+    port: 25565
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
