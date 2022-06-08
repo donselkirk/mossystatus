@@ -5,8 +5,6 @@ repo: mossystatus # The name of this repository
 sites:
   - name: Website
     url: https://www.mossymine.com
-  - name: Panel
-    url: https://panel.mossymine.com
   - name: Proxy
     check: "tcp-ping"
     url: mc.mossymine.com
@@ -27,6 +25,15 @@ status-website:
   navbar:
     - title: Website
       href: https://www.mossymine.com
+      
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
