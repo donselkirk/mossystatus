@@ -22,7 +22,7 @@
     "url": "mc.mossymine.com",
     "icon": "https://favicons.githubusercontent.com/null",
     "slug": "server",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -33,6 +33,8 @@
     "timeWeek": 129,
     "timeMonth": 119,
     "timeYear": 119,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2022-06-20": 0
+    }
   }
 ]
